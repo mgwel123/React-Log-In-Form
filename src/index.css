@@ -5,9 +5,51 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://images.fineartamerica.com/images-medium-large-5/bright-green-background-with-tropical-msmoloko.jpg);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  border-color: seagreen;
+}
+
+ul.navbar-nav {
+  flex-direction: row;
+  
+
+}
+
+.nav-item {
+  padding: 24px;
+  
+}
+
+div.container-fluid {
+  justify-content: space-evenly;
+  border: solid;
+  border-color:rgb(35, 123, 60);
+  border-radius: 4px;
+  background-color: palegreen;
+  
+}
+
+form.container {
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: 200px;
+  
+}
+
+a.navbar-brand {
+  font-size: 48px;
+  color:rgb(99, 76, 17)
+}
+
+a.nav-link {
+  font-size:24px;
+  color:rgb(108, 84, 12)
 }
